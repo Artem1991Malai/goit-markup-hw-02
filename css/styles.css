@@ -4,7 +4,7 @@
   --second-title-color: #434455;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -41,7 +41,6 @@
 }
 
 .nav-list {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -50,7 +49,7 @@
 }
 
 .contacts {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -67,7 +66,7 @@
 /* PORTFOLIO */
 
 .main-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -83,8 +82,6 @@
 }
 
 .main-ptf {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -92,8 +89,6 @@
   color: var(--main-title-color);
 }
 .ptf-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -106,7 +101,6 @@
   background: var(--main-title-color);
 }
 .hero-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -114,7 +108,7 @@
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -129,7 +123,6 @@
 
 .products,
 .team {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -139,7 +132,6 @@
 
 .products-text,
 .team-position {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -149,7 +141,6 @@
 
 .wawd,
 .team-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -178,8 +169,6 @@
 }
 
 .logo-footer-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
