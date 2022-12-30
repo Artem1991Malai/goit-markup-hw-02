@@ -2,6 +2,7 @@
   --main-title-color: #2e2f42;
   --main-bgr-color: #404bbf;
   --second-title-color: #434455;
+  --third-title-color: #4d5ae5;
 }
 
 body {
@@ -31,14 +32,14 @@ body {
 
 /* HEADER */
 
-.header {
+/* .header {
 }
 
 .navigation {
 }
 
 .logo {
-}
+} */
 
 .nav-list {
   font-weight: 500;
@@ -73,7 +74,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
+  color: var(--third-title-color);
 }
 
 .main-btn:hover,
@@ -118,7 +119,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background: var(--third-title-color);
 }
 
 .products,
@@ -156,7 +157,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--third-title-color);
 }
 
 .logo {
