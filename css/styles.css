@@ -1,3 +1,9 @@
+:root {
+  --main-title-color: #2e2f42;
+  --main-bgr-color: #404bbf;
+  --second-title-color: #434455;
+}
+
 .list {
   list-style: none;
 }
@@ -39,7 +45,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .contacts {
@@ -49,19 +55,19 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-title-color);
 }
 
 .contacts:hover,
 .contacts:focus {
-  background-color: #404bbf;
+  background-color: var(--main-bgr-color);
 }
 
 /* PORTFOLIO */
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--main-bgr-color);
 }
 
 .main-btn {
@@ -76,13 +82,13 @@
 
 .main-btn:hover,
 .main-btn:focus {
-  background: #404bbf;
+  background: var(--main-bgr-color);
 }
 
 /* STUDIO */
 
 .hero {
-  background: #2e2f42;
+  background: var(--main-title-color);
 }
 .hero-title {
   font-weight: 700;
@@ -104,50 +110,36 @@
   background: #4d5ae5;
 }
 
-.products {
+.products,
+.team,
+.main-ptf {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
-.products-text {
+.products-text,
+.team-position,
+.ptf-text {
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-title-color);
 }
 
-.wawd {
+.wawd,
+.team-title {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.team-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-title-color);
 }
 
 /* FOOTER */
@@ -181,5 +173,15 @@
 }
 
 .logo-footer {
-  background: #2e2f42;
+  background: var(--main-title-color);
+}
+
+.logo-heading {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
 }
