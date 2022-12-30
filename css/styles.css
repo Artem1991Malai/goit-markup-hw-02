@@ -11,6 +11,7 @@
 .link {
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -65,12 +66,8 @@
 
 /* PORTFOLIO */
 
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: var(--main-bgr-color);
-}
-
 .main-btn {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -85,12 +82,31 @@
   background: var(--main-bgr-color);
 }
 
+.main-ptf {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.ptf-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
 /* STUDIO */
 
 .hero {
   background: var(--main-title-color);
 }
 .hero-title {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -98,6 +114,7 @@
   color: #ffffff;
 }
 .hero-button {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -111,8 +128,7 @@
 }
 
 .products,
-.team,
-.main-ptf {
+.team {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
@@ -122,8 +138,7 @@
 }
 
 .products-text,
-.team-position,
-.ptf-text {
+.team-position {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -176,7 +191,7 @@
   background: var(--main-title-color);
 }
 
-.logo-heading {
+.logo-head {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
