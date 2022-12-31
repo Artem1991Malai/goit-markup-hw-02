@@ -3,10 +3,15 @@
   --main-bgr-color: #404bbf;
   --second-title-color: #434455;
   --third-title-color: #4d5ae5;
+  --fourth-color: #ffffff;
+  --logo-color: #f4f4fd;
+  --logo-text-color: #e7e9fc;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
 }
 
 .list {
@@ -46,11 +51,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--main-bgr-color);
 }
 
 .contacts {
-  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -61,14 +69,13 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  background-color: var(--main-bgr-color);
+  color: var(--main-bgr-color);
 }
 
 /* PORTFOLIO */
 
 .main-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,18 +86,16 @@ body {
 
 .main-btn:hover,
 .main-btn:focus {
+  color: var(--fourth-color);
   background: var(--main-bgr-color);
 }
 
 .main-ptf {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
 }
 .ptf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -105,55 +110,54 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--fourth-color);
 }
 .hero-button {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--fourth-color);
   background: var(--third-title-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--main-bgr-color);
 }
 
 .products,
 .team {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
 }
 
 .products-text,
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
 
-.wawd,
+.title,
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
 }
 
 /* FOOTER */
 
 .accent {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -161,20 +165,19 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #f4f4fd;
+  color: var(--logo-color);
   text-decoration: none;
 }
 
 .logo-footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--logo-text-color);
 }
 
 .logo-footer {
@@ -182,7 +185,7 @@ body {
 }
 
 .logo-head {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
