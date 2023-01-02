@@ -10,7 +10,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   color: #2e2f42;
 }
 
@@ -53,6 +52,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-list-item: {
+  color: var(--main-title-color);
+}
+
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: var(--main-bgr-color);
@@ -90,6 +93,7 @@ body {
 }
 
 .main-ptf {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -119,7 +123,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--fourth-color);
   background: var(--third-title-color);
@@ -127,11 +130,12 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--main-bgr-color);
+  background-color: var(--main-bgr-color);
 }
 
 .products,
 .team {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
