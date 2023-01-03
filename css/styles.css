@@ -52,7 +52,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-list-item: {
+.nav-list-item {
   color: var(--main-title-color);
 }
 
@@ -160,10 +160,6 @@ body {
 /* FOOTER */
 
 .accent {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
   color: var(--third-title-color);
 }
 
